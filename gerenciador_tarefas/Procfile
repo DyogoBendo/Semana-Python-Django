@@ -1,1 +1,1 @@
-web: gunicorn gerenciador_tarefas.wsgi
+web: gunicorn gerenciador_tarefas.wsgi --log-file -
